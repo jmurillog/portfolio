@@ -10,7 +10,7 @@ export default function Home() {
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      const navHeight = 64; // height of navbar
+      const navHeight = 64;
       const sectionTop = section.offsetTop - navHeight;
       window.scrollTo({
         top: sectionTop,
@@ -163,9 +163,13 @@ export default function Home() {
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-12"
         >
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-            <div className="md:hidden w-48 h-48 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-lg backdrop-blur-sm border border-gray-800 mb-8">
-              {/* Profile image for mobile */}
-              {/* Add your Image component here when you have the profile image */}
+            <div className="md:hidden w-48 h-48 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-xl backdrop-blur-sm border border-gray-800 mb-8 overflow-hidden">
+              <Image
+                src="/yo.png"
+                alt="Profile"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="flex-1">
               <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
@@ -203,8 +207,6 @@ export default function Home() {
               </div>
             </div>
             <div className="hidden md:block w-64 h-64 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-xl backdrop-blur-sm border border-gray-800 overflow-hidden">
-              {/* Profile image for desktop */}
-              {/* Add your Image component here when you have the profile image */}
               <Image src="/yo.png" alt="Profile" layout="fill" />
             </div>
           </div>
