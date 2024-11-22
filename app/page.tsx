@@ -160,7 +160,7 @@ export default function Home() {
         {/* Hero Section */}
         <section
           id="about"
-          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-12"
+          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-6"
         >
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div className="md:hidden w-48 h-48 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-xl backdrop-blur-sm border border-gray-800 mb-8 overflow-hidden">
@@ -215,7 +215,7 @@ export default function Home() {
         {/* Projects Section */}
         <section id="projects" className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               Featured Projects
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
