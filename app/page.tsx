@@ -23,16 +23,6 @@ const itemVariants = {
   },
 };
 
-const cardVariants = {
-  hidden: { scale: 0.95, opacity: 0 },
-  visible: {
-    scale: 1,
-    opacity: 1,
-    transition: { type: "spring", stiffness: 100 },
-  },
-  hover: { scale: 1.05, transition: { duration: 0.3 } },
-};
-
 const imageVariants = {
   hidden: { scale: 1, opacity: 0 },
   visible: {
@@ -236,14 +226,12 @@ export default function Home() {
             </motion.h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {projects.map((project, index) => (
-                <motion.div
+                <div
                   key={index}
-                  variants={cardVariants}
-                  whileHover="hover"
                   onClick={() =>
                     (window.location.href = "/projects/" + project.id)
                   }
-                  className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-lg overflow-hidden border border-gray-800 hover:border-blue-500/50 transition-all duration-500 cursor-pointer"
+                  className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-lg overflow-hidden border border-gray-800 hover:border-blue-500/50 transition-all duration-500 cursor-pointer hover:scale-105"
                 >
                   <div className="aspect-square w-full bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm">
                     <Image
@@ -270,7 +258,7 @@ export default function Home() {
                       ))}
                     </div>
                   </div>
-                </motion.div>
+                </div>
               ))}
             </div>
           </div>

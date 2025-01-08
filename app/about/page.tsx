@@ -85,30 +85,33 @@ export default function About() {
                 variants={itemVariants}
                 className="text-lg text-gray-300 mb-6 leading-relaxed"
               >
-                I'm Jose, a passionate Mobile and Full Stack Developer with a
-                knack for creating seamless, user-centric apps and web
-                experiences. I specialize in React Native, Flutter, and Next.js
-                and enjoy solving complex problems with simple, intuitive
+                I’m Jose, a dedicated Mobile and Full Stack Developer who
+                specializes in creating apps with exceptional design, seamless
+                user experiences, and robust functionality. Known for my
+                transparent communication and quick turnaround times, I’ve had
+                the privilege of working with individuals and companies like
+                Sony Pictures and running clubs, delivering tailored solutions
+                that address their specific needs.
+              </motion.p>
+              <motion.p
+                variants={itemVariants}
+                className="text-lg text-gray-300 mb-6 leading-relaxed"
+              >
+                Over the years, I’ve developed diverse applications, including
+                AI-powered systems, fitness trackers, and interactive
+                storytelling platforms. My toolkit includes industry-leading
+                technologies such as TypeScript, Firebase, React Native, and
+                Next.js, which I leverage to build scalable and innovative
                 solutions.
               </motion.p>
               <motion.p
                 variants={itemVariants}
                 className="text-lg text-gray-300 mb-6 leading-relaxed"
               >
-                Over the years, I've worked on a diverse range of projects,
-                including apps for Sony, running clubs, and personal ventures
-                focused on fitness, storytelling, and professional networking. I
-                leverage cutting-edge technologies like AI, Firebase, and
-                TypeScript to build reliable and scalable solutions.
-              </motion.p>
-              <motion.p
-                variants={itemVariants}
-                className="text-lg text-gray-300 mb-6 leading-relaxed"
-              >
-                When I'm not coding, you'll probably find me running with a
-                local club, experimenting with new ideas, or learning something
-                new. I'm always up for a challenge and love working on projects
-                that make an impact.
+                When I’m not collaborating with clients, I’m likely working on
+                passion projects, exploring new technologies, or enjoying
+                sports. I’m always eager to take on new challenges and
+                continuously enhance my skills.
               </motion.p>
             </motion.div>
           </div>
