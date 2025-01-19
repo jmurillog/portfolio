@@ -85,33 +85,31 @@ export default function About() {
                 variants={itemVariants}
                 className="text-lg text-gray-300 mb-6 leading-relaxed"
               >
-                I’m Jose, a dedicated Mobile and Full Stack Developer who
-                specializes in creating apps with exceptional design, seamless
-                user experiences, and robust functionality. Known for my
-                transparent communication and quick turnaround times, I’ve had
-                the privilege of working with individuals and companies like
-                Sony Pictures and running clubs, delivering tailored solutions
-                that address their specific needs.
+                I'm Jose, a Mobile and Full Stack Developer with experience in
+                building production-level applications. I've worked with both
+                startups and established companies like Sony Pictures,
+                implementing features and maintaining codebases across multiple
+                platforms.
               </motion.p>
               <motion.p
                 variants={itemVariants}
                 className="text-lg text-gray-300 mb-6 leading-relaxed"
               >
-                Over the years, I’ve developed diverse applications, including
-                AI-powered systems, fitness trackers, and interactive
-                storytelling platforms. My toolkit includes industry-leading
-                technologies such as TypeScript, Firebase, React Native, and
-                Next.js, which I leverage to build scalable and innovative
-                solutions.
+                My technical stack includes React Native for mobile development,
+                React/Next.js for web applications, and Node.js for backend
+                services. I work extensively with TypeScript and have experience
+                with cloud services like Firebase and AWS. I've implemented
+                CI/CD pipelines, written unit tests, and contributed to
+                improving application performance and code quality.
               </motion.p>
               <motion.p
                 variants={itemVariants}
                 className="text-lg text-gray-300 mb-6 leading-relaxed"
               >
-                When I’m not collaborating with clients, I’m likely working on
-                passion projects, exploring new technologies, or enjoying
-                sports. I’m always eager to take on new challenges and
-                continuously enhance my skills.
+                Outside of work, I contribute to open-source projects and stay
+                current with software development best practices and emerging
+                technologies. I enjoy problem-solving and working in
+                collaborative team environments.
               </motion.p>
             </motion.div>
           </div>

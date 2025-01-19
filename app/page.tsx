@@ -163,7 +163,7 @@ export default function Home() {
                 animate="visible"
                 className="text-lg text-gray-300 mb-6"
               >
-                {`I create top-notch mobile apps and build dynamic web applications. My work is powered by TypeScript, Firebase, and AI tools, focusing on delivering practical, user-friendly solutions that companies and people genuinely enjoy using.`
+                {`I develop mobile applications and web services using TypeScript, React Native, and Next.js. I implement cloud solutions with Firebase and AWS, and integrate third-party APIs including OpenAI for AI-powered features. My focus is on writing maintainable code and delivering stable, performant applications.`
                   .split(" ")
                   .map((word, i) => (
                     <motion.span
